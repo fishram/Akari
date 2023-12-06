@@ -1,0 +1,113 @@
+/* style.css */
+.root {
+  -fx-font-family: 'Verdana';
+  -fx-alignment: center;
+  -fx-background-color: #f0f0f0;
+}
+
+.title-text {
+  -fx-font-size: 38px;
+  -fx-font-weight: bold;
+  -fx-padding: 0px 0px 110px 0px;
+}
+
+
+.button {
+  -fx-background-color: #eeeeee;
+  -fx-border-color: #333;
+  -fx-border-width: 2.5px;
+  -fx-font-weight: bold; /* For JavaFX */
+  -fx-text-fill: black;
+  -fx-font-size: 20px;
+  -fx-padding: 10px;
+  -fx-alignment: center;
+  -fx-letter-spacing: 4px;
+  -fx-min-width: 130px;
+  -fx-min-height: 65px;
+  -fx-wrap-text: true;
+}
+.clue-text-satisfied {
+  -fx-font-size: 20;
+  -fx-font-weight: bold;
+  -fx-fill: #99ff99
+;
+}
+
+.button:hover {
+  -fx-background-color: #FADF6F;
+}
+
+.control-box .button {
+  -fx-padding: 10px;
+  -fx-min-height: 50px;
+}
+
+.control-box .button .text {
+  -fx-line-spacing: 5px;
+  -fx-letter-spacing: 0.5px;
+}
+
+
+.title-box {
+  -fx-spacing: 10px;
+  -fx-padding: 20px;
+}
+
+.cell {
+  -fx-min-width: 50px;
+  -fx-min-height: 50px;
+  -fx-border-color: black;
+  -fx-border-width: 1.5;
+}
+
+.clue-text {
+  -fx-font-size: 20;
+  -fx-font-weight: bold;
+  -fx-fill: white;
+}
+
+.clue-cell {
+  -fx-background-color: black;
+  -fx-fill: white;
+}
+
+.wall-cell {
+  -fx-background-color: black;
+}
+
+.corridor-cell {
+  -fx-background-color: white;
+}
+.lit-cell {
+  -fx-background-color: #FADF6F;
+}
+
+.lamp-cell {
+  -fx-background-image: url('lamp-icon.png');
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: 30px 30px;
+}
+.illegal-lamp-cell {
+  -fx-background-image: url('illegal-lamp-icon.png');
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: 30px 30px;
+}
+
+.congrats-message {
+  -fx-font-size: 40px;
+  -fx-font-weight: bold;
+  -fx-fill: #99ff99; /* Green color for the text */
+  -fx-stroke: black; /* Color of the text border */
+  -fx-stroke-width: 1.5px; /* Width of the text border */
+}
+
+
+.puzzle-number-text {
+   -fx-font-size: 60px;
+   -fx-font-weight: bold;
+   -fx-fill: #FFDE59;
+   -fx-stroke: black;
+   -fx-stroke-width: 2.5px;
+ }
