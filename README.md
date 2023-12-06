@@ -11,3 +11,5 @@ This project is a recreation of the classic puzzle game Light Up, also known as 
 - Place bulbs on the grid to illuminate all the empty squares
 - A numbered square indicates how many bulbs should be adjacent to it, either horizontally or vertically.
 - Bulbs cannot illuminate each other.
+
+![Light Up Demo](https://github.com/fishram/Akari/blob/main/Light%20Up%20.gif?raw=true)
