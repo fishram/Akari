@@ -5,7 +5,7 @@ This project is a recreation of the classic puzzle game Light Up, also known as 
 
 ## Features
 - Graphical User Interface: Developed using JavaFX for an intuitive user experience.
-- *ultiple Puzzles Levels: Catering to both beginners and advanced players.
+- Multiple Puzzles Levels: Catering to both beginners and advanced players.
 
 ## Light Up Rules
 - Place bulbs on the grid to illuminate all the empty squares
